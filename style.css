@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    background-color: white;
+    min-width: 260px;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: hidden;
+    border-radius: 0.5rem;
+
+
+}
+
+.form-box h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    color: #111827;
+
+}
+
+.form-box #input1 {
+    padding: 0.2rem;
+    height: 1.8rem;
+    margin: 0.5rem;
+    width: 90%;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 0.2rem;
+    padding-left: 1rem;
+}
+
+#input2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem;
+    border: 1px solid grey;
+    height: 1.8rem;
+    width: 90%;
+    border-radius: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+
+#input2 input {
+    border: none;
+    height: 100%;
+    width: 80%;
+    margin-left: 0.8rem;
+    outline: none;
+
+
+}
+
+#input2 i {
+    opacity: 0.8;
+    font-size: 0.8rem;
+    color: grey;
+}
+
+
+
+.form-box input::placeholder {
+    font-weight: 500;
+}
+
+.form-box input:focus {
+    border: 1.3px solid black;
+}
+
+.form-box a {
+    font-size: 0.8rem;
+    color: #2563eb;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.form-box button {
+    width: 90%;
+    padding: 0.4rem 0;
+    font-weight: bold;
+    border: hidden;
+    border-radius: 0.2rem;
+
+}
+
+#login {
+    background-color: #2563eb;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#login:hover {
+    background-color: #1d4edb;
+}
+
+.form-box p {
+    font-size: 0.7rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+
+.Or-box {
+    display: flex;
+    height: 1rem;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+}
+
+#left-line {
+    height: 1px;
+    background-color: grey;
+    width: 40%;
+    display: inline-block;
+}
+
+span {
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+#right-line {
+    height: 1px;
+    background-color: grey;
+    width: 40%;
+    display: inline-block;
+}
+
+#login_fb {
+    background: linear-gradient(135deg, #4c1d95);
+    color: white;
+    margin-bottom: 0.8rem;
+
+}
+
+#login_fb:hover {
+    background: linear-gradient(135deg, #6010d9);
+}
+
+i {
+    margin-right: 0.3rem;
+    font-size: 1.1rem;
+}
+
+#login_google {
+    background-color: transparent;
+    border: 1px solid grey;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#login_google:hover {
+    background-color: rgb(230, 225, 225);
+}
+
+#login_google i {
+    font-size: 1rem;
+    background: conic-gradient(#EA4335 0deg 90deg,
+            /* red */
+            #FBBC05 90deg 180deg,
+            /* yellow */
+            #34A853 180deg 270deg,
+            /* green */
+            #4285F4 270deg 360deg
+            /* blue */
+        );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
